@@ -38,7 +38,7 @@ const Banner = () => {
         <div className=' banner__content'>
             <div>
                 <h1>{series?.name}</h1>
-                <div>
+                <div className=' btn__container'>
                     <button className='banner__button'>Play</button>
                     <button className='banner__button'>My List</button>
                 </div>
